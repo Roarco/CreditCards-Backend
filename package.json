@@ -1,0 +1,25 @@
+{
+  "name": "crud-tarjetas-de-credito",
+  "version": "1.0.0",
+  "description": "Crud de tarjetas de credito con node.js , mongoDB,express y angular",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "Roberth Arrieta <sebuscaroberth@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "14.x"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
