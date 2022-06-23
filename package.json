@@ -1,7 +1,7 @@
 {
-  "name": "crud-tarjetas-de-credito",
+  "name": "backend-tarjetas-de-credito",
   "version": "1.0.0",
-  "description": "Crud de tarjetas de credito con node.js , mongoDB,express y angular",
+  "description": "Back-end para gestionar tarjetas de credito usando tecnologias como: NodeJS, ExpressJS, MongoDB,",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
