@@ -13,7 +13,7 @@ app.set('view engine', 'html');
 
 // middleware
 app.use(express.json());
-
+app.use(cors());
 
 // routes
 routerApi(app);
