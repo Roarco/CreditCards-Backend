@@ -4,9 +4,9 @@ const express = require("express");
 const tarjetasRouter = require("./creditCards");
 
 const routerApi = (app) => {
-  const routes = express.Router();
-  app.use("/api", routes);
-  app.use("/api/tarjetas", tarjetasRouter);
+  const router = express.Router();
+  app.use("/api/", router);
+  router.use("tarjetas", tarjetasRouter);
 };
 
 module.exports = routerApi;
